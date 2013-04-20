@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'CombinationLock' target in the 'CombinationLock' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    // storyboard id
+    #define SET_PIN_VIEW_CONTROLLER_ID @"SET_PIN_VIEW_CONTROLLER_ID"
+    #define LOCK_APPLICATION_VIEW_CONTROLLER_ID @"LOCK_APPLICATION_VIEW_CONTROLLER_ID"
+#endif
